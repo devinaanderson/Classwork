@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: 'Bree Serif', serif;
+}
+
+
+.nav-wrapper {
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+}
+
+
+.nav-bar {
+    display: flex;
+    width: 100vh;
+    justify-content: space-around;
+}
+
+.nav-link a {
+    font-size: 3em;
+    text-decoration: none;
+    color: crimson;
+    outline: 2px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: center;
+}
+
+.image-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.image img {
+    height: 400px;
+    width: 400px;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
